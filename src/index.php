@@ -23,11 +23,11 @@
                         $myfile = fopen("/var/www/my-vol/date", "r") or die("");
                         echo fread($myfile,filesize("/var/www/my-vol/date"));
                         fclose($myfile);
-                ?>
-                <br><img src="architecture.png">
+                ?>        
             </div>
         </div>
 
+        <img src="architecture.png">
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
     </body>
