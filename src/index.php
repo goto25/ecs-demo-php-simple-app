@@ -23,9 +23,8 @@
                         $myfile = fopen("/var/www/my-vol/date", "r") or die("");
                         echo fread($myfile,filesize("/var/www/my-vol/date"));
                         fclose($myfile);
-                ?>        
-            </div>
-            <div class="hero-unit">
+                ?>   
+                <p>&nbsp;</p>
                 <img src="architecture.png">
             </div>
         </div>
