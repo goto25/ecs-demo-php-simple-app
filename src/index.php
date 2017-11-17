@@ -24,7 +24,7 @@
                         echo fread($myfile,filesize("/var/www/my-vol/date"));
                         fclose($myfile);
                 ?>
-                <img src="architecture.png">
+                <div><img src="architecture.png"></div>
             </div>
         </div>
 
