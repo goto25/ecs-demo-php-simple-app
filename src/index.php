@@ -25,9 +25,11 @@
                         fclose($myfile);
                 ?>        
             </div>
+            <div class="hero-unit">
+                <img src="architecture.png">
+            </div>
         </div>
 
-        <img src="architecture.png">
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
     </body>
